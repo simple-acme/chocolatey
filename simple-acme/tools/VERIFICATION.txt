@@ -24,4 +24,4 @@ Package content can be verified like this:
    checksum32: cac7e4809cf5c400cb9fb656723aee2b95f3d7077c6dd118c7802133caa78ef3
    checksum64: 1b4b133fb7214bc303241b4fdf5a3687f999ac5e58e87495adc4dda4bea51b75
    
-   These checksums are also posted at https://simple-acme.com/download
+   These checksums are also posted at https://simple-acme.com/download (look for the "Full" builds)
