@@ -1,8 +1,8 @@
-﻿$ErrorActionPreference = 'Stop'
+$ErrorActionPreference = 'Stop'
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $destination           = Join-Path $(Get-ToolsLocation) 'simple-acme'
 $exepath               = (Join-Path $destination 'wacs.exe')
-$tag                   = "v2.3.34"
+$tag                   = "v2.3.1.9"
 $packageArgs = @{
     packageName    = "$env:chocolateyPackageName"
     destination    = $destination
