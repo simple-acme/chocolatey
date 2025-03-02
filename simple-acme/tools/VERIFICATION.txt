@@ -9,7 +9,7 @@ Package content can be verified like this:
 
 1. Binaries inside the archive should be signed using a certificate by the SignPath Foundation. 
 
-   The build number (v2.3.1.1934) and commit (bsdflsdf) should be reflected in the "Product version" 
+   The build:(v2.3.1.1934) and commit:(bsdflsdf) should be reflected in the "Product version" 
    field of the executable properties. The expected build number and commit are posted publically 
    at https://simple-acme.com/download
 
@@ -24,4 +24,5 @@ Package content can be verified like this:
 
    checksum32: 27429c9b4698e5d2d298693252363fe775385cb1d43c5abf1dbd0f5c0c37ddd8
    checksum64: bcf9e7c13656986075cd8d222d9b4434f5f45aed18cb02af601a14577ae3e6f8
+   
    These checksums are also posted at https://simple-acme.com/download
