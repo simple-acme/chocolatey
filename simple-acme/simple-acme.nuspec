@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>simple-acme</id>
+    <version>2.3.3.4</version>
+    <packageSourceUrl>https://github.com/simple-acme/chocolatey/simple-acme</packageSourceUrl>
+    <owners>Wouter Tinus</owners>
+    <title>simple-acme</title>
+    <description>A simple cross platform ACME client (for use with Let's Encrypt et al.)</description>
+    <authors>Wouter Tinus</authors>
+    <projectUrl>https://simple-acme.com</projectUrl>
+    <iconUrl>https://simple-acme.com/assets/172954279.jpeg</iconUrl>
+    <copyright>2015</copyright>
+    <licenseUrl>https://github.com/simple-acme/simple-acme/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/simple-acme/simple-acme</projectSourceUrl>
+    <docsUrl>https://simple-acme.com/manual/getting-started</docsUrl>
+    <bugTrackerUrl>https://github.com/simple-acme/simple-acme/issues</bugTrackerUrl>
+    <tags>simple-acme letsencrypt https certificates acme apache iis free pem pfx rfc8555</tags>
+    <summary>A simple cross platform ACME client (for use with Let's Encrypt et al.)</summary>
+    <releaseNotes>https://github.com/simple-acme/simple-acme/releases</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="bin\**" target="bin" />
+  </files>
+</package>
