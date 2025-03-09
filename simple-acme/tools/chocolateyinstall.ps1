@@ -14,4 +14,3 @@ $packageArgs = @{
 
 Get-ChocolateyUnzip @packageArgs
 Install-BinFile -Name 'wacs' -Path $exepath
-Remove-Item -ea 0 -force -path $parentDir\*.zip
