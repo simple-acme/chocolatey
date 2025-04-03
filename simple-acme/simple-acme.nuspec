@@ -4,7 +4,7 @@
   <metadata>
     <id>simple-acme</id>
     <version>2.3.1.9</version>
-    <packageSourceUrl>https://github.com/simple-acme/chocolatey/simple-acme</packageSourceUrl>
+    <packageSourceUrl>https://github.com/simple-acme/chocolatey/tree/main/simple-acme</packageSourceUrl>
     <owners>Wouter Tinus</owners>
     <title>simple-acme</title>
     <description>A simple cross platform ACME client (for use with Let's Encrypt et al.)</description>
