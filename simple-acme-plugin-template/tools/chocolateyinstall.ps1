@@ -7,7 +7,7 @@ $artifact              = ""
 $packageArgs = @{
     packageName    = "$env:chocolateyPackageName"
     destination    = $destination
-    FileFullPath   = Join-Path $toolsDir "\bin\$artifact"
+    FileFullPath   = Join-Path $parentDir "\bin\$artifact"
 }
 
 Get-ChocolateyUnzip @packageArgs
