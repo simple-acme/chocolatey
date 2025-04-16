@@ -4,7 +4,7 @@
   <metadata>
     <id>simple-acme-validation-dns-rfc2136</id>
     <version>2.3.1.9</version>
-    <packageSourceUrl>https://github.com/simple-acme/chocolatey/simple-acme-validation-dns-rfc2136</packageSourceUrl>
+    <packageSourceUrl>https://github.com/simple-acme/chocolatey/tree/main/simple-acme-validation-dns-rfc2136</packageSourceUrl>
     <owners>Wouter Tinus</owners>
     <title>simple-acme RFC2136 plugin</title>
     <description>RFC2136 validation plugin for simple-acme</description>
@@ -21,7 +21,7 @@
     <summary>RFC2136 validation plugin for simple-acme</summary>
     <releaseNotes>https://github.com/simple-acme/simple-acme/releases</releaseNotes>
     <dependencies>
-      <dependency id="simple-acme" version="2.3.1.9" />
+      <dependency id="simple-acme" version="[2.3.1.9,2.4)" />
     </dependencies>
   </metadata>
   <files>
