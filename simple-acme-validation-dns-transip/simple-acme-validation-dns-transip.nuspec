@@ -10,7 +10,7 @@
     <description>TransIP validation plugin for simple-acme</description>
     <authors>Wouter Tinus</authors>
     <projectUrl>https://simple-acme.com</projectUrl>
-    <iconUrl>https://simple-acme.com/assets/172954279.jpeg</iconUrl>
+    <iconUrl>https://rawcdn.githack.com/simple-acme/simple-acme.github.io/e05a8ef40ec8ac8ba650570c036e942b4563bc7b/assets/172954279.jpeg</iconUrl>
     <copyright>© 2015-2025 - Wouter Tinus, Bryan Livingston and many other authors</copyright>
     <licenseUrl>https://github.com/simple-acme/simple-acme/blob/main/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
