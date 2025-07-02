@@ -1,7 +1,7 @@
 $ErrorActionPreference = 'Stop';
 $destination           = Join-Path $(Get-ToolsLocation) 'simple-acme'
 $exepath               = (Join-Path $destination 'wacs.exe')
-$build                 = "2.3.1.1894"
+$build                 = "2.3.3.2009"
 
 $packageArgs = @{
     FilePath   = Join-Path $toolsDir "\bin\simple-acme.v$build.win-x86.pluggable.zip"

@@ -8,20 +8,20 @@ I (Wouter Tinus) am the owner of the simple-acme project.
 Package content can be verified like this:
 
 1. Binaries inside the archives should be signed using a code signing certificate by the 
-   SignPath Foundation. The build:(v2.3.1.1894) and commit:(cf7c8228b25a9d6a469ce2c1e18f613a6e7d8c9e) 
+   SignPath Foundation. The build:(v2.3.3.2009) and commit:(1e2abd9e922e1ab3499522866e99f7bc46126443) 
    should be reflected in the "Product version" field of the executable. The expected build 
    number and commit are also posted publically at https://simple-acme.com/download
 
 2. Archives should match  with the ones posted on GitHub:
 
-   x32: https://github.com/simple-acme/simple-acme/releases/download/v2.3.1.9/simple-acme.v2.3.1.1894.win-x86.pluggable.zip
-   x64: https://github.com/simple-acme/simple-acme/releases/download/v2.3.1.9/simple-acme.v2.3.1.1894.win-x64.pluggable.zip
+   x32: https://github.com/simple-acme/simple-acme/releases/download/v2.3.3/simple-acme.v2.3.3.2009.win-x86.pluggable.zip
+   x64: https://github.com/simple-acme/simple-acme/releases/download/v2.3.3/simple-acme.v2.3.3.2009.win-x64.pluggable.zip
       
    You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum32: cac7e4809cf5c400cb9fb656723aee2b95f3d7077c6dd118c7802133caa78ef3
-   checksum64: 1b4b133fb7214bc303241b4fdf5a3687f999ac5e58e87495adc4dda4bea51b75
+   checksum32: 8db8d8e5035ff2e0e83d2d5f60ef8fd2992cf8a928bd90a2fc2fff0ce87d458c
+   checksum64: 11434f711ad89a0dcd6ea5f2fd9dbcf326a9f31d71eb0f9c61cf774a5816c115
    
    These checksums are also posted at https://simple-acme.com/download (look for the "Full" builds)

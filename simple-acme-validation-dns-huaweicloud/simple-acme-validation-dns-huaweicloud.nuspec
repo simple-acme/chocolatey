@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>simple-acme-validation-dns-huaweicloud</id>
-    <version>2.3.1.9</version>
+    <version>2.3.3</version>
     <packageSourceUrl>https://github.com/simple-acme/chocolatey/tree/main/simple-acme-validation-dns-huaweicloud</packageSourceUrl>
     <owners>Wouter Tinus</owners>
     <title>simple-acme HuaWeiCloud plugin</title>
@@ -21,7 +21,7 @@
     <summary>HuaWeiCloud validation plugin for simple-acme</summary>
     <releaseNotes>https://github.com/simple-acme/simple-acme/releases</releaseNotes>
     <dependencies>
-      <dependency id="simple-acme" version="[2.3.1.9,2.4)" />
+      <dependency id="simple-acme" version="[2.3.3,2.4)" />
     </dependencies>
   </metadata>
   <files>

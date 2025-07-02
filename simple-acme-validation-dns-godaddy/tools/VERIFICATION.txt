@@ -8,18 +8,18 @@ I (Wouter Tinus) am the owner of the simple-acme project.
 Package content can be verified like this:
 
 1. Binaries inside the archives should be signed using a code signing certificate by the 
-   SignPath Foundation. The build:(v2.3.1.1894) and commit:(cf7c8228b25a9d6a469ce2c1e18f613a6e7d8c9e) 
+   SignPath Foundation. The build:(v2.3.3.2009) and commit:(1e2abd9e922e1ab3499522866e99f7bc46126443) 
    should be reflected in the "Product version" field of the .dll file starting with PKISharp. 
    The expected build number and commit are also posted publically at https://simple-acme.com/download
 
 2. Archives should match with the one posted on GitHub:
 
-   https://github.com/simple-acme/simple-acme/releases/download/v2.3.1.9/plugin.validation.dns.godaddy.v2.3.1.1894.zip
+   https://github.com/simple-acme/simple-acme/releases/download/v2.3.3/plugin.validation.dns.godaddy.v2.3.3.2009.zip
       
    You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: 501841ff53027a5c0064be6957d03b3fe5b2b27b640a766f6110de4b9720c979
+   checksum: 5abf5f0879ee93e9520941d955dbd2971f9b485edec32433ac3bb31f2df4bbc9
    
    This checksum is also posted at https://simple-acme.com/download
