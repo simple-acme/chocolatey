@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
 $parentDir             = (Get-Item $toolsDir).Parent.FullName
 $destination           = Join-Path $(Get-ToolsLocation) 'simple-acme'
-$artifact              = "plugin.validation.dns.digitalocean.v2.3.3.2009.zip"
+$artifact              = "plugin.validation.dns.digitalocean.v2.3.4.2067.zip"
 
 $packageArgs = @{
     packageName    = "$env:chocolateyPackageName"

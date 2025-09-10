@@ -14,12 +14,12 @@ Package content can be verified like this:
 
 2. Archives should match with the one posted on GitHub:
 
-   https://github.com/simple-acme/simple-acme/releases/download/v2.3.4/plugin.validation.dns.linode.v2.3.4.2067.zip
+   https://github.com/simple-acme/simple-acme/releases/download/v2.3.4/plugin.validation.dns.webnames.v2.3.4.2067.zip
       
    You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: e244c40eb8a3d45b63e3810856caca8412b991b69ed8a48abe26788379dc6814
+   checksum: 4fd64b0ae7dba0ec2b6577503cf27ad30584131bc2d93f3152240de5d599cc0a
    
    This checksum is also posted at https://simple-acme.com/download
