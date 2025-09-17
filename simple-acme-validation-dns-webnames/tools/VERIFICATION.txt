@@ -14,12 +14,12 @@ Package content can be verified like this:
 
 2. Archives should match with the one posted on GitHub:
 
-   https://github.com/simple-acme/simple-acme/releases/download/v2.3.4.1/plugin.validation.dns.dnsmadeeasy.v2.3.4.2084.zip
+   https://github.com/simple-acme/simple-acme/releases/download/v2.3.4.1/plugin.validation.dns.webnames.v2.3.4.2084.zip
       
    You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: 62194c2fefaf470572c1f67566c2d16cff91a657eb1128ce48ed1b928a708eb5
+   checksum: 9a463a8fc90ab604574b3f4f753c33e85605b1b3a8447f840b2458a6dafdc9c7
    
    This checksum is also posted at https://simple-acme.com/download

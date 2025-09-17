@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$artifact              = "plugin.validation.dns.cloudflare.v2.3.4.2084.zip"
+$artifact              = "plugin.validation.dns.webnames.v2.3.4.2084.zip"
 
 $packageArgs = @{
     FilePath   = $artifact
