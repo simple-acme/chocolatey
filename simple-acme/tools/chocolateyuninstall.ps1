@@ -1,4 +1,5 @@
 $ErrorActionPreference = 'Stop';
+$toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $destination           = Join-Path $(Get-ToolsLocation) 'simple-acme'
 $exepath               = (Join-Path $destination 'wacs.exe')
 $build                 = "2.3.3.2009"
