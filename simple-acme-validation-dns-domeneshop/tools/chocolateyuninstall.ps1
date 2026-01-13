@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$artifact              = "plugin.validation.dns.domeneshop.v2.3.1.1894.zip"
+$artifact              = "plugin.validation.dns.domeneshop.v2.3.5.2195.zip"
 
 $packageArgs = @{
     FilePath   = $artifact

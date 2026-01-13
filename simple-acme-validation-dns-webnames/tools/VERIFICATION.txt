@@ -14,12 +14,12 @@ Package content can be verified like this:
 
 2. Archives should match with the one posted on GitHub:
 
-   https://github.com/simple-acme/simple-acme/releases/download/v2.3.5/plugin.validation.dns.rfc2136.v2.3.5.2195.zip
+   https://github.com/simple-acme/simple-acme/releases/download/v2.3.5/plugin.validation.dns.webnames.v2.3.5.2195.zip
       
    You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: 53aff33dca52ebcf191f84f0b3ba1ef153e840129df3f14f398506e4225c1c73
+   checksum: c54c592a642b3a3f5f0f4d2e9fa4d4598c5192c4f83f553a19763661d5c32ee8
    
    This checksum is also posted at https://simple-acme.com/download

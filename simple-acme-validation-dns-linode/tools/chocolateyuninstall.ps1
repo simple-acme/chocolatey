@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$artifact              = "plugin.validation.dns.linode.v2.3.3.2009.zip"
+$artifact              = "plugin.validation.dns.linode.v2.3.5.2195.zip"
 
 $packageArgs = @{
     FilePath   = $artifact
