@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>simple-acme-validation-dns-webnames</id>
+    <version>2.3.6</version>
+    <packageSourceUrl>https://github.com/simple-acme/chocolatey/tree/main/simple-acme-validation-dns-webnames</packageSourceUrl>
+    <owners>Wouter Tinus</owners>
+    <title>simple-acme Webnames plugin</title>
+    <description>Webnames validation plugin for simple-acme</description>
+    <authors>Wouter Tinus</authors>
+    <projectUrl>https://simple-acme.com</projectUrl>
+    <iconUrl>https://rawcdn.githack.com/simple-acme/simple-acme.github.io/e05a8ef40ec8ac8ba650570c036e942b4563bc7b/assets/172954279.jpeg</iconUrl>
+    <copyright>© 2015-2025 - Wouter Tinus, Bryan Livingston and many other authors</copyright>
+    <licenseUrl>https://github.com/simple-acme/simple-acme/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/simple-acme/simple-acme</projectSourceUrl>
+    <docsUrl>https://simple-acme.com/reference/plugins/validation/dns/webnames</docsUrl>
+    <bugTrackerUrl>https://github.com/simple-acme/simple-acme/issues</bugTrackerUrl>
+    <tags>simple-acme plugin validation dns webnames</tags>
+    <summary>Webnames validation plugin for simple-acme</summary>
+    <releaseNotes>https://github.com/simple-acme/simple-acme/releases</releaseNotes>
+    <dependencies>
+      <dependency id="simple-acme" version="[2.3.6,2.4)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="bin\**" target="bin" />
+  </files>
+</package>

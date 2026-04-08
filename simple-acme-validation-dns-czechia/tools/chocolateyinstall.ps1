@@ -1,0 +1,13 @@
+$ErrorActionPreference = 'Stop'
+$toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
+$parentDir             = (Get-Item $toolsDir).Parent.FullName
+$destination           = Join-Path $(Get-ToolsLocation) 'simple-acme'
+$artifact              = "plugin.validation.dns.czechia.v2.3.6.2257.zip"
+
+$packageArgs = @{
+    packageName    = "$env:chocolateyPackageName"
+    destination    = $destination
+    FileFullPath   = Join-Path $parentDir "\bin\$artifact"
+}
+
+Get-ChocolateyUnzip @packageArgs

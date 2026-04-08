@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$artifact              = "plugin.validation.dns.godaddy.v2.3.3.2009.zip"
+$artifact              = "plugin.validation.dns.godaddy.v2.3.6.2257.zip"
 
 $packageArgs = @{
     FilePath   = $artifact
