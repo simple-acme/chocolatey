@@ -8,18 +8,18 @@ I (Wouter Tinus) am the owner of the simple-acme project.
 Package content can be verified like this:
 
 1. Binaries inside the archives should be signed using a code signing certificate by the 
-   SignPath Foundation. The build:(v2.3.6.2257) and commit:(31f25c9bdacac676668b17fbeb1f13bdfefb30e3) 
+   SignPath Foundation. The build:(v2.4.0.2350) and commit:(604599658e53575a77a4020dd2d4c73715440d9d) 
    should be reflected in the "Product version" field of the .dll file starting with PKISharp. 
    The expected build number and commit are also posted publically at https://simple-acme.com/download
 
 2. Archives should match with the one posted on GitHub:
 
-   https://github.com/simple-acme/simple-acme/releases/download/v2.3.6/plugin.validation.dns.bunny.v2.3.6.2257.zip
+   https://github.com/simple-acme/simple-acme/releases/download/v2.4.0/plugin.validation.dns.bunny.v2.4.0.2350.zip
       
    You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: 9b6a7889a7433907c9e4cb887f78039614d326a2895c90c43d96a58d355d3d31
+   checksum: bbacbc209db985f26b9160e8397ac9f6e301559740de1644496888466e778a7f
    
    This checksum is also posted at https://simple-acme.com/download

@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$artifact              = "plugin.validation.dns.arsys.v2.3.6.2257.zip"
+$artifact              = "plugin.validation.dns.arsys.v2.4.0.2350.zip"
 
 $packageArgs = @{
     FilePath   = $artifact

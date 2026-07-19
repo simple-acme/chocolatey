@@ -8,18 +8,18 @@ I (Wouter Tinus) am the owner of the simple-acme project.
 Package content can be verified like this:
 
 1. Binaries inside the archives should be signed using a code signing certificate by the 
-   SignPath Foundation. The build:(v2.3.6.2257) and commit:(31f25c9bdacac676668b17fbeb1f13bdfefb30e3) 
+   SignPath Foundation. The build:(v2.4.0.2350) and commit:(604599658e53575a77a4020dd2d4c73715440d9d) 
    should be reflected in the "Product version" field of the .dll file starting with PKISharp. 
    The expected build number and commit are also posted publically at https://simple-acme.com/download
 
 2. Archives should match with the one posted on GitHub:
 
-   https://github.com/simple-acme/simple-acme/releases/download/v2.3.6/plugin.store.userstore.v2.3.6.2257.zip
+   https://github.com/simple-acme/simple-acme/releases/download/v2.4.0/plugin.store.userstore.v2.4.0.2350.zip
       
    You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: 62be21faa452b8a8814c4e6a536141cf6b9ea6e231fae2d24cb207ace643cc9e
+   checksum: 7c497f02658250921fc51fe2ea81b8a2b546b335e23c3c38e98a0ace167055b5
    
    This checksum is also posted at https://simple-acme.com/download

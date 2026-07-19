@@ -8,18 +8,18 @@ I (Wouter Tinus) am the owner of the simple-acme project.
 Package content can be verified like this:
 
 1. Binaries inside the archives should be signed using a code signing certificate by the 
-   SignPath Foundation. The build:(v2.3.6.2257) and commit:(31f25c9bdacac676668b17fbeb1f13bdfefb30e3) 
+   SignPath Foundation. The build:(v2.4.0.2350) and commit:(604599658e53575a77a4020dd2d4c73715440d9d) 
    should be reflected in the "Product version" field of the .dll file starting with PKISharp. 
    The expected build number and commit are also posted publically at https://simple-acme.com/download
 
 2. Archives should match with the one posted on GitHub:
 
-   https://github.com/simple-acme/simple-acme/releases/download/v2.3.6/plugin.validation.dns.transip.v2.3.6.2257.zip
+   https://github.com/simple-acme/simple-acme/releases/download/v2.4.0/plugin.validation.dns.transip.v2.4.0.2350.zip
       
    You can use one of the following methods to obtain the SHA256 checksum:
    - Use powershell function 'Get-FileHash'
    - Use Chocolatey utility 'checksum.exe'
 
-   checksum: 0acc77e74f4e282c8b67ecee940377fdf7f2769b4b724ef0c8ada6c62942ec85
+   checksum: 08aff1da7f7cf0e769144e67e490c182e10ef3c707ba31ac4af3e4564ca74d4a
    
    This checksum is also posted at https://simple-acme.com/download

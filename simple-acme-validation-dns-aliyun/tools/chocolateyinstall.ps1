@@ -2,7 +2,7 @@ $ErrorActionPreference = 'Stop'
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
 $parentDir             = (Get-Item $toolsDir).Parent.FullName
 $destination           = Join-Path $(Get-ToolsLocation) 'simple-acme'
-$artifact              = "plugin.validation.dns.aliyun.v2.3.6.2257.zip"
+$artifact              = "plugin.validation.dns.aliyun.v2.4.0.2350.zip"
 
 $packageArgs = @{
     packageName    = "$env:chocolateyPackageName"
