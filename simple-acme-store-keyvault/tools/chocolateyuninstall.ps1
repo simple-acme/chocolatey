@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop';
 $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$artifact              = "plugin.store.keyvault.v2.4.0.2350.zip"
+$artifact              = "plugin.store.keyvault.v2.4.1.2444.zip"
 
 $packageArgs = @{
     FilePath   = $artifact
