@@ -3,7 +3,7 @@ $toolsDir              = "$(Split-Path -parent $MyInvocation.MyCommand.Definitio
 $parentDir             = (Get-Item $toolsDir).Parent.FullName
 $destination           = Join-Path $(Get-ToolsLocation) 'simple-acme'
 $exepath               = (Join-Path $destination 'wacs.exe')
-$build                 = "2.4.0.2350"
+$build                 = "2.4.1.2444"
 
 $packageArgs = @{
     packageName    = "$env:chocolateyPackageName"

@@ -1,0 +1,25 @@
+
+VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+
+I (Wouter Tinus) am the owner of the simple-acme project. 
+
+Package content can be verified like this:
+
+1. Binaries inside the archives should be signed using a code signing certificate by the 
+   SignPath Foundation. The build:(v2.4.1.2444) and commit:(b21505a1b21e0f7738d95b2aea00306cdf9260f2) 
+   should be reflected in the "Product version" field of the .dll file starting with PKISharp. 
+   The expected build number and commit are also posted publically at https://simple-acme.com/download
+
+2. Archives should match with the one posted on GitHub:
+
+   https://github.com/simple-acme/simple-acme/releases/download/v2.4.1/plugin.validation.dns.ipprojects.v2.4.1.2444.zip
+      
+   You can use one of the following methods to obtain the SHA256 checksum:
+   - Use powershell function 'Get-FileHash'
+   - Use Chocolatey utility 'checksum.exe'
+
+   checksum: d3f193dba384323c724600e6a14a1ab4a180523a61c016206992270cdabf3e80
+   
+   This checksum is also posted at https://simple-acme.com/download
